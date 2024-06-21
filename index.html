@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processando dados do Form </title>
+</head>
+<body>
+    <form action="página-processando-dados-do-form" method="post">
+        <fieldset>
+            <legend width="%">Dados Gerais</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" minlength="3" id:"nome"/>
+            <label for="data_nascimento">Data de nascimento</label>
+            <input type="text" id:"data_nascimento"/> 
+            <label for="cpf">CPF:</label>
+            <input type="text" minlength="11" id:"cpf"/>
+            <label for="genero">Gênero:</label>
+            <select id="genero">
+                <option value="">Selecionar</option>
+                <option value="">Feminino</option>
+                <option value="">Masculino</option>
+                <option value="">Outro</option>
+            </select>
+            <label for="email">E-mail:</label>
+            <input type="text" id="email"/>
+        </fieldset>
+        <fieldset>
+            <legend>Endereço</legend>
+            <label for="estado_endereco">Estado:</label>
+            <select id="estado_endereco">
+                <option value="">Selecione</option>
+                <option value="">AC</option>
+                <option value="">AL</option>
+                <option value="">AP</option>
+                <option value="">AM</option>
+                <option value="">BA</option>
+                <option value="">CE</option>
+                <option value="">DF</option>
+                <option value="">ES</option>
+                <option value="">GO</option>
+                <option value="">MA</option>
+                <option value="">MG</option>
+                <option value="">MS</option>
+                <option value="">MT</option>
+                <option value="">PA</option>
+                <option value="">PB</option>
+                <option value="">PE</option>
+                <option value="">PI</option>
+                <option value="">PR</option>
+                <option value="">RJ</option>
+                <option value="">RN</option>
+                <option value="">RO</option>
+                <option value="">RR</option>
+                <option value="">RS</option>
+                <option value="">SC</option>
+                <option value="">SE</option>
+                <option value="">SP</option>
+                <option value="">TO</option>
+                
+            </select>
+            <label for="cidade_endereco">Cidade:</label>
+            <input type="text" id="cidade_endereco"/>
+            <label for="tipo_endereco">Tipo:</label>
+            <select id="tipo_endereco">
+             <option value="">Selecione</option>
+             <option value="">Rua</option>
+             <option value="">Estrada</option>
+             <option value="">Rodovia</option>
+             <option value="">Outros</option>
+        
+            </select>
+              <label for="cep_endereco">CEP:</label>
+              <input type="text" id="cep_endereco"/>
+
+              <label for="logradouro_endereco">Logradouro:</label>
+              <input type="text" id="logradouro_endereco"/>
+
+            <label for="numero_endereco">Número:</label>
+              <input type="text" id="numero_endereco"/>
+
+            <label for="complemento_endereco">Complemento:</label>
+             <input type="text" id="complemento_endereco"/>
+        </fieldset>
+        <fieldset>
+            <legend>Fale Conosco</legend>
+
+            <label for="msg">Mensagem:</label>
+            <textarea type="text" id="msg"></textarea>
+        </fieldset>
+        <fieldset>
+            <button type="submit">Enviar mensagem</button>
+            <button type="reset">Limpar formulário</button>
+        </fieldset>
+
+    </form>
+    
+</body>
+
